@@ -66,14 +66,14 @@ UNI-V2 LP Address on mainnet for reference
 9  BAND 0xf421c3f2e695c2d4c0765379ccace8ade4a480d9
 10 AMPL 0xc5be99a02c6857f9eac67bbce58df5572498f40c
 11 YFI  0x2fdbadf3c4d5a8666bc06645b8358ab803996e28
-12 SUSHI 0xce84867c3c02b05dc570d0135103d3fb9cc19433
+12 SUSHI 0x3108ccfd96816f9e663baa0e8c5951d229e8c6da
 */
 
 export const supportedPools = [
   {
     pid: 40,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -85,7 +85,7 @@ export const supportedPools = [
   },  {
     pid: 41,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -98,7 +98,7 @@ export const supportedPools = [
   {
     pid: 42,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -110,7 +110,7 @@ export const supportedPools = [
   },  {
     pid: 43,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -123,7 +123,7 @@ export const supportedPools = [
   {
     pid: 44,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -136,7 +136,7 @@ export const supportedPools = [
   {
     pid: 45,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -149,7 +149,7 @@ export const supportedPools = [
   {
     pid: 1,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -162,7 +162,7 @@ export const supportedPools = [
   {
     pid: 2,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -175,7 +175,7 @@ export const supportedPools = [
   {
     pid: 3,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -188,7 +188,7 @@ export const supportedPools = [
   {
     pid: 4,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -200,7 +200,7 @@ export const supportedPools = [
   },  {
     pid: 5,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -213,7 +213,7 @@ export const supportedPools = [
   {
     pid: 6,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -225,7 +225,7 @@ export const supportedPools = [
   },  {
     pid: 7,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -238,7 +238,7 @@ export const supportedPools = [
   {
     pid: 8,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -250,7 +250,7 @@ export const supportedPools = [
   },  {
     pid: 9,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -263,7 +263,7 @@ export const supportedPools = [
   {
     pid: 10,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -275,7 +275,7 @@ export const supportedPools = [
   },  {
     pid: 11,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -288,7 +288,7 @@ export const supportedPools = [
   {
     pid: 12,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -300,7 +300,7 @@ export const supportedPools = [
   },  {
     pid: 13,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -313,7 +313,7 @@ export const supportedPools = [
   {
     pid: 14,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -325,7 +325,7 @@ export const supportedPools = [
   },  {
     pid: 15,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -338,7 +338,7 @@ export const supportedPools = [
   {
     pid: 16,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -350,7 +350,7 @@ export const supportedPools = [
   },  {
     pid: 17,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -363,7 +363,7 @@ export const supportedPools = [
   {
     pid: 18,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -375,7 +375,7 @@ export const supportedPools = [
   },  {
     pid: 19,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -388,7 +388,7 @@ export const supportedPools = [
   {
     pid: 20,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -400,7 +400,7 @@ export const supportedPools = [
   },  {
     pid: 21,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -413,7 +413,7 @@ export const supportedPools = [
   {
     pid: 22,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -425,7 +425,7 @@ export const supportedPools = [
   },  {
     pid: 23,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -438,7 +438,7 @@ export const supportedPools = [
   {
     pid: 24,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -450,7 +450,7 @@ export const supportedPools = [
   },  {
     pid: 25,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -463,7 +463,7 @@ export const supportedPools = [
   {
     pid: 26,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -475,7 +475,7 @@ export const supportedPools = [
   },  {
     pid: 27,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -488,7 +488,7 @@ export const supportedPools = [
   {
     pid: 28,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -500,7 +500,7 @@ export const supportedPools = [
   },  {
     pid: 29,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -513,7 +513,7 @@ export const supportedPools = [
   {
     pid: 30,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -525,7 +525,7 @@ export const supportedPools = [
   },  {
     pid: 31,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -538,7 +538,7 @@ export const supportedPools = [
   {
     pid: 32,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -550,7 +550,7 @@ export const supportedPools = [
   },  {
     pid: 33,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -563,7 +563,7 @@ export const supportedPools = [
   {
     pid: 34,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -575,7 +575,7 @@ export const supportedPools = [
   },  {
     pid: 35,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -588,7 +588,7 @@ export const supportedPools = [
   {
     pid: 36,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -600,7 +600,7 @@ export const supportedPools = [
   },  {
     pid: 37,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -613,7 +613,7 @@ export const supportedPools = [
   {
     pid: 38,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
@@ -625,7 +625,7 @@ export const supportedPools = [
   },  {
     pid: 39,
     lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+      1: '0x3108ccfd96816f9e663baa0e8c5951d229e8c6da',
     },
     tokenAddresses: {
       1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
