@@ -71,6 +71,82 @@ UNI-V2 LP Address on mainnet for reference
 
 export const supportedPools = [
   {
+    pid: 40,
+    lpAddresses: {
+      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+    },
+    tokenAddresses: {
+      1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
+    },
+    name: 'Darkening Awaits!',
+    symbol: 'DARK — ETH UNI-V2 LP',
+    tokenSymbol: 'DARK',
+    icon: <GiScythe />,
+  },  {
+    pid: 41,
+    lpAddresses: {
+      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+    },
+    tokenAddresses: {
+      1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
+    },
+    name: 'Darkening Awaits!',
+    symbol: 'DARK — RI UNI-V2 LP',
+    tokenSymbol: 'DARK',
+    icon: <GiSpiralThrust />,
+  },
+  {
+    pid: 42,
+    lpAddresses: {
+      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+    },
+    tokenAddresses: {
+      1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
+    },
+    name: 'Darkening Awaits!',
+    symbol: 'DARK — yUSD UNI-V2 LP',
+    tokenSymbol: 'DARK',
+    icon: <GiStiletto />,
+  },  {
+    pid: 43,
+    lpAddresses: {
+      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+    },
+    tokenAddresses: {
+      1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
+    },
+    name: 'Darkening Awaits!',
+    symbol: 'XIOT — ETH UNI-V2 LP',
+    tokenSymbol: 'DARK',
+    icon: <GiMonkeyWrench />,
+  },
+  {
+    pid: 44,
+    lpAddresses: {
+      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+    },
+    tokenAddresses: {
+      1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
+    },
+    name: 'Darkening Awaits!',
+    symbol: 'XIOT — BXIOT UNI-V2 LP',
+    tokenSymbol: 'DARK',
+    icon: <GiPirateFlag />,
+  },
+  {
+    pid: 45,
+    lpAddresses: {
+      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
+    },
+    tokenAddresses: {
+      1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
+    },
+    name: 'Darkening Awaits!',
+    symbol: 'XIOT — RI UNI-V2 LP',
+    tokenSymbol: 'DARK',
+    icon: <GiSwordAltar />,
+  },
+  {
     pid: 1,
     lpAddresses: {
       1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
@@ -559,80 +635,5 @@ export const supportedPools = [
     tokenSymbol: 'DARK',
     icon: <GiSacrificialDagger />,
   },
-  {
-    pid: 40,
-    lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
-    },
-    tokenAddresses: {
-      1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
-    },
-    name: 'Darkening Awaits!',
-    symbol: 'DARK — ETH UNI-V2 LP',
-    tokenSymbol: 'DARK',
-    icon: <GiScythe />,
-  },  {
-    pid: 41,
-    lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
-    },
-    tokenAddresses: {
-      1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
-    },
-    name: 'Darkening Awaits!',
-    symbol: 'DARK — RI UNI-V2 LP',
-    tokenSymbol: 'DARK',
-    icon: <GiSpiralThrust />,
-  },
-  {
-    pid: 42,
-    lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
-    },
-    tokenAddresses: {
-      1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
-    },
-    name: 'Darkening Awaits!',
-    symbol: 'DARK — yUSD UNI-V2 LP',
-    tokenSymbol: 'DARK',
-    icon: <GiStiletto />,
-  },  {
-    pid: 43,
-    lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
-    },
-    tokenAddresses: {
-      1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
-    },
-    name: 'Darkening Awaits!',
-    symbol: 'XIOT — ETH UNI-V2 LP',
-    tokenSymbol: 'DARK',
-    icon: <GiMonkeyWrench />,
-  },
-  {
-    pid: 44,
-    lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
-    },
-    tokenAddresses: {
-      1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
-    },
-    name: 'Darkening Awaits!',
-    symbol: 'XIOT — BXIOT UNI-V2 LP',
-    tokenSymbol: 'DARK',
-    icon: <GiPirateFlag />,
-  },
-  {
-    pid: 45,
-    lpAddresses: {
-      1: '0xce84867c3c02b05dc570d0135103d3fb9cc19433',
-    },
-    tokenAddresses: {
-      1: '0x3108ccFd96816F9E663baA0E8c5951D229E8C6da',
-    },
-    name: 'Darkening Awaits!',
-    symbol: 'XIOT — RI UNI-V2 LP',
-    tokenSymbol: 'DARK',
-    icon: <GiSwordAltar />,
-  },
+  
 ]
