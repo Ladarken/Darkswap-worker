@@ -71,7 +71,7 @@ UNI-V2 LP Address on mainnet for reference
 
 export const supportedPools = [
   {
-    pid: 40,
+    pid: 0,
     lpAddresses: {
       1: '0x5cbefe14c66ba706e79ca4237ff10f218461014a',
     },
@@ -83,7 +83,7 @@ export const supportedPools = [
     tokenSymbol: 'DARK',
     icon: <GiScythe />,
   },  {
-    pid: 41,
+    pid: 1,
     lpAddresses: {
       1: '0x1a327696c8e5ea0f07dbe0cf159380980e067dcc',
     },
@@ -96,7 +96,7 @@ export const supportedPools = [
     icon: <GiSpiralThrust />,
   },
   {
-    pid: 42,
+    pid: 2,
     lpAddresses: {
       1: '0x3b022d8a4c034b5d1b8354640e10a1736eeac532',
     },
@@ -108,7 +108,7 @@ export const supportedPools = [
     tokenSymbol: 'DARK',
     icon: <GiStiletto />,
   },  {
-    pid: 43,
+    pid: 3,
     lpAddresses: {
       1: '0x5741a1ceff6148c8aaca0f0456c03c88817e05f5',
     },
@@ -121,7 +121,7 @@ export const supportedPools = [
     icon: <GiMonkeyWrench />,
   },
   {
-    pid: 44,
+    pid: 4,
     lpAddresses: {
       1: '0xb94b43bc589898f8ce5405e4e7809b0d131a967c',
     },
@@ -134,7 +134,7 @@ export const supportedPools = [
     icon: <GiPirateFlag />,
   },
   {
-    pid: 45,
+    pid: 5,
     lpAddresses: {
       1: '0xd58cc1b6d9f43a47387708c68111efe83c1e4b0b',
     },
@@ -145,9 +145,9 @@ export const supportedPools = [
     symbol: 'XIOT — RI UNI-V2 LP',
     tokenSymbol: 'DARK',
     icon: <GiSwordAltar />,
-  },
-  {
-    pid: 1,
+  }
+  /* {
+    pid: 0,
     lpAddresses: {
       1: '0x2fdbadf3c4d5a8666bc06645b8358ab803996e28',
     },
@@ -160,7 +160,7 @@ export const supportedPools = [
     icon: <GiBoneKnife />,
   },
   {
-    pid: 2,
+    pid: 1,
     lpAddresses: {
       1: '0xd3d2e2692501a5c9ca623199d38826e513033a17',
     },
@@ -634,6 +634,6 @@ export const supportedPools = [
     symbol: 'SNX — ETH SushiSwap SLP',
     tokenSymbol: 'DARK',
     icon: <GiSacrificialDagger />,
-  },
+  }, */
   
 ]
