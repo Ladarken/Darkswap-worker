@@ -81,8 +81,8 @@ const Stake: React.FC<StakeProps> = ({ lpContract, pid, tokenName }) => {
           <StyledCardActions>
             {!allowance.toNumber() ? (
               <Button
-                // disabled={requestedApproval}
-                disabled
+               disabled={requestedApproval}
+                /* disabled */
                 onClick={handleApprove}
                 text={`Approve ${tokenName}`}
               />
