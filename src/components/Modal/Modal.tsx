@@ -43,8 +43,8 @@ const StyledResponsiveWrapper = styled.div`
 
 const StyledModal = styled.div`
   padding: 0 20px;
-  background: ${(props) => props.theme.color.grey[250]};
-  background-image:url(${chef});
+  background: ${(props) => props.theme.color.grey[100]};
+  // background-image:url(${chef});
   background-size: 100% 100%;
   border-radius: 12px;
   // box-shadow: inset 1px 1px 1px 1px ${(props) => props.theme.color.grey[100]};
