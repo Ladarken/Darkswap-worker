@@ -67,6 +67,7 @@ const Farm: React.FC = () => {
             <Harvest pid={pid} />
           </StyledCardWrapper>
           <Spacer />
+          <br />
           <StyledCardWrapper>
             <Stake
               lpContract={lpContract}
@@ -96,7 +97,7 @@ const StyledFarm = styled.div`
 `
 
 const StyledCardsWrapper = styled.div`
-  display: flex;
+  // display: flex;
   width: 600px;
   @media (max-width: 768px) {
     width: 100%;

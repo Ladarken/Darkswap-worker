@@ -18,7 +18,6 @@ const Harvest: React.FC<HarvestProps> = ({ pid }) => {
   const earnings = useEarnings(pid)
   const [pendingTx, setPendingTx] = useState(false)
   const { onReward } = useReward(pid)
-
   return (
     <Card>
       <CardContent>
