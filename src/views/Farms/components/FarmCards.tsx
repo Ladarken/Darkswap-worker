@@ -18,6 +18,13 @@ import useSushi from '../../../hooks/useSushi'
 import { getEarned, getMasterChefContract } from '../../../sushi/utils'
 import { bnToDec } from '../../../utils'
 
+import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
+import InputLabel from '@material-ui/core/InputLabel';
+import MenuItem from '@material-ui/core/MenuItem';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import FormControl from '@material-ui/core/FormControl';
+import Select from '@material-ui/core/Select';
+
 interface FarmWithStakedValue extends Farm, StakedValue {
   apy: BigNumber
 }
@@ -62,9 +69,64 @@ const FarmCards: React.FC = () => {
     },
     [[]],
   )
+  // var changerows =new Array;
+  // rows.map((farmRow,i) => {
+  //   changerows.push(farmRow)
+  // })
+  // const useStyles = makeStyles((theme: Theme) =>
+  //   createStyles({
+  //     formControl: {
+  //       margin: theme.spacing(1),
+  //       minWidth: 120,
+  //     },
+  //     selectEmpty: {
+  //       marginTop: theme.spacing(2),
+  //     },
+  //   }),
+  // );
+  // const classes = useStyles();
+  // const [age, setAge] = React.useState('');
+
+  // const handleChange = (event: React.ChangeEvent<{ value: unknown }>) => {
+  //   setAge(event.target.value as string);
+  //   changerows.length = 0;
+  //   if(event.target.value === "ALL"){
+  //     rows.map((farmRow,i) => {
+  //       changerows.push(farmRow)
+  //     })
+  //     return};
+  //     changerows.push([]);
+  //   rows.map((farmRow, i) => {
+  //     farmRow.map((farm, j) => {
+  //       if(farm.linkfrom == event.target.value){
+  //         if (changerows[changerows.length - 1].length === 3) {
+  //           changerows.push([farm])
+  //         } else {
+  //           changerows[changerows.length - 1].push(farm)
+  //         }
+  //       }
+  //     })
+  //   })
+  // };
 
   return (
     <StyledCards>
+      {/* <FormControl variant="outlined" className={classes.formControl}>
+        <InputLabel id="demo-simple-select-outlined-label">choose</InputLabel>
+        <Select
+          labelId="demo-simple-select-outlined-label"
+          id="demo-simple-select-outlined"
+          value={age}
+          onChange={handleChange}
+          label="Link"
+        >
+          <MenuItem value={'ETH'}>ALL</MenuItem>
+          <MenuItem value={'DARK'}>DARK</MenuItem>
+          <MenuItem value={'XIOT'}>XIOT</MenuItem>
+          <MenuItem value={'ETH'}>ETH</MenuItem>
+        </Select>
+      </FormControl> */}
+
       {!!rows[0].length ? (
         rows.map((farmRow, i) => (
           <StyledRow key={i}>
@@ -78,7 +140,7 @@ const FarmCards: React.FC = () => {
         ))
       ) : (
           <StyledLoadingWrapper>
-            <Loader text="Cooking the rice ..." />
+            <Loader text="Darking ..." />
           </StyledLoadingWrapper>
         )}
     </StyledCards>

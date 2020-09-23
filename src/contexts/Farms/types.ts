@@ -12,6 +12,7 @@ export interface Farm {
   icon: React.ReactNode
   id: string
   tokenSymbol: string
+  linkfrom:string
 }
 
 export interface FarmsContext {

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Route, Switch, useRouteMatch } from 'react-router-dom'
 import { useWallet } from 'use-wallet'
-import {GrFingerPrint} from "react-icons/gr";
 import chef from '../../assets/img/White.svg'
 
 import Button from '../../components/Button'
