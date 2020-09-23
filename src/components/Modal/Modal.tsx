@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
-import chef from '../../assets/img/block_bg.jpg'
+import chef from '../../assets/img/block_bg_2.jpg'
 export interface ModalProps {
   onDismiss?: () => void
 }
@@ -44,7 +44,7 @@ const StyledResponsiveWrapper = styled.div`
 const StyledModal = styled.div`
   padding: 0 20px;
   background: ${(props) => props.theme.color.grey[100]};
-  // background-image:url(${chef});
+  background-image:url(${chef});
   background-size: 100% 100%;
   border-radius: 12px;
   // box-shadow: inset 1px 1px 1px 1px ${(props) => props.theme.color.grey[100]};
