@@ -109,7 +109,7 @@ const Balances: React.FC = () => {
         </Footnote>
       </Card>
       <Spacer />
-
+      <br />
       <Card>
         <CardContent>
           <Label text="Total Dark Supply" />
@@ -139,7 +139,7 @@ const FootnoteValue = styled.div`
 
 const StyledWrapper = styled.div`
   align-items: center;
-  display: flex;
+  // display: flex;
   @media (max-width: 768px) {
     width: 100%;
     flex-flow: column nowrap;
