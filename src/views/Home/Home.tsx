@@ -17,9 +17,9 @@ const Home: React.FC = () => {
         title="DARKSWAP"
         subtitle=""
       />
-      <Styledctd>
+      {/* <Styledctd>
         <b>Launch:</b> <br /><Countdown date={Date.UTC(2020,8,22,9,0,0)}/> <br />
-      </Styledctd>
+      </Styledctd> */}
       
       <Container>
         <Balances />
