@@ -20,6 +20,12 @@ const Nav: React.FC = () => {
       >
         About
       </StyledAbsoluteLink>
+      <StyledAbsoluteLink
+        href="https://p.xiotri.io/"
+        target="_blank"
+      >
+        XIOT
+      </StyledAbsoluteLink>
     </StyledNav>
   )
 }
