@@ -22,7 +22,7 @@ const Nav: React.FC = () => {
       <StyledLink target="_blank" href="https://github.com/Ladarken/Darkswap">
         Github
       </StyledLink>
-      <StyledLink target="_blank" href="https://twitter.com/Darkswap1">
+      <StyledLink target="_blank" href="https://twitter.com/DarkBuild1">
         Twitter
       </StyledLink>
     </StyledNav>
