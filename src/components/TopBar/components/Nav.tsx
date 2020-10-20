@@ -21,10 +21,10 @@ const Nav: React.FC = () => {
         About
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
-        href="https://p.xiotri.io/"
+        href="https://dark-vault.netlify.app"
         target="_blank"
       >
-        XIOT
+        Vault
       </StyledAbsoluteLink>
     </StyledNav>
   )

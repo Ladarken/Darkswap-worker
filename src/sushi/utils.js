@@ -30,6 +30,10 @@ export const getSushiContract = (sushi) => {
   return sushi && sushi.contracts && sushi.contracts.sushi
 }
 
+export const getXSushiStakingContract = (sushi) => {
+  return sushi && sushi.contracts && sushi.contracts.xSushiStaking
+}
+
 export const getFarms = (sushi) => {
   return sushi
     ? sushi.contracts.pools.map(
@@ -43,7 +47,6 @@ export const getFarms = (sushi) => {
           tokenContract,
           lpAddress,
           lpContract,
-          linkfrom
         }) => ({
           pid,
           id: symbol,
@@ -54,10 +57,9 @@ export const getFarms = (sushi) => {
           tokenAddress,
           tokenSymbol,
           tokenContract,
-          earnToken: tokenSymbol,
+          earnToken: 'sushi',
           earnTokenAddress: sushi.contracts.sushi.options.address,
           icon,
-          linkfrom: linkfrom
         }),
       )
     : []
@@ -72,7 +74,7 @@ export const getPoolWeight = async (masterChefContract, pid) => {
 }
 
 export const getEarned = async (masterChefContract, pid, account) => {
-  return masterChefContract.methods.pendingDark(pid, account).call()
+  return masterChefContract.methods.pendingSushi(pid, account).call()
 }
 
 export const getTotalLPWethValue = async (
@@ -124,8 +126,18 @@ export const approve = async (lpContract, masterChefContract, account) => {
     .send({ from: account })
 }
 
+export const approveAddress = async (lpContract, address, account) => {
+  return lpContract.methods
+      .approve(address, ethers.constants.MaxUint256)
+      .send({ from: account })
+}
+
 export const getSushiSupply = async (sushi) => {
   return new BigNumber(await sushi.contracts.sushi.methods.totalSupply().call())
+}
+
+export const getXSushiSupply = async (sushi) => {
+  return new BigNumber(await sushi.contracts.xSushiStaking.methods.totalSupply().call())
 }
 
 export const stake = async (masterChefContract, pid, amount, account) => {
@@ -187,4 +199,29 @@ export const redeem = async (masterChefContract, account) => {
   } else {
     alert('pool not active')
   }
+}
+
+export const enter = async (contract, amount, account) => {
+  debugger
+  return contract.methods
+      .enter(
+          new BigNumber(amount).times(new BigNumber(10).pow(18)).toString(),
+      )
+      .send({ from: account })
+      .on('transactionHash', (tx) => {
+        console.log(tx)
+        return tx.transactionHash
+      })
+}
+
+export const leave = async (contract, amount, account) => {
+  return contract.methods
+      .leave(
+          new BigNumber(amount).times(new BigNumber(10).pow(18)).toString(),
+      )
+      .send({ from: account })
+      .on('transactionHash', (tx) => {
+        console.log(tx)
+        return tx.transactionHash
+      })
 }
