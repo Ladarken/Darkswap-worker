@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import chef from '../../assets/img/White.svg'
+import chef from '../../assets/img/DARK-logo.png'
 import Button from '../../components/Button'
 import Container from '../../components/Container'
 import Page from '../../components/Page'
@@ -14,13 +14,13 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={chef} height={0} />}
-        title="DARKSWAP"
+        title="Dark-Liquidity"
         subtitle=""
       />
       {/* <Styledctd>
         <b>Launch:</b> <br /><Countdown date={Date.UTC(2020,8,22,9,0,0)}/> <br />
-      </Styledctd> */}
-      
+      </Styledctd>
+       */}
       <Container>
         <Balances />
       </Container>
