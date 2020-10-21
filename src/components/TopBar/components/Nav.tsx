@@ -18,13 +18,25 @@ const Nav: React.FC = () => {
         href="https://medium.com/@darkswap/darkswap-7bf717646aa0"
         target="_blank"
       >
-        About
+        About<StyledSpan>↗</StyledSpan>
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
         href="https://dark-vault.netlify.app"
         target="_blank"
       >
-        Vault
+        Vault<StyledSpan>↗</StyledSpan>
+      </StyledAbsoluteLink>
+      <StyledAbsoluteLink
+        href="https://dark-vision.netlify.app"
+        target="_blank"
+      >
+        Vision<StyledSpan>↗</StyledSpan>
+      </StyledAbsoluteLink>
+      <StyledAbsoluteLink
+        href="https://dark-exchange.netlify.app"
+        target="_blank"
+      >
+        Exchange<StyledSpan>↗</StyledSpan>
       </StyledAbsoluteLink>
     </StyledNav>
   )
@@ -33,6 +45,10 @@ const Nav: React.FC = () => {
 const StyledNav = styled.nav`
   align-items: center;
   display: flex;
+`
+
+const StyledSpan = styled.span`
+  font-size:11px
 `
 
 const StyledLink = styled(NavLink)`
@@ -54,6 +70,7 @@ const StyledLink = styled(NavLink)`
 `
 
 const StyledAbsoluteLink = styled.a`
+  display:flex;
   color: ${(props) => props.theme.color.grey[400]};
   font-weight: 700;
   padding-left: ${(props) => props.theme.spacing[3]}px;
