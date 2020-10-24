@@ -13,8 +13,9 @@ const Nav: React.FC = () => {
       </StyledLink>
       <StyledAbsoluteLink
         href="https://dark-stake.netlify.app/"
+        target="_blank"
       >
-        staking
+        staking<StyledSpan>↗</StyledSpan>
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
         href="https://medium.com/@darkswap/darkswap-7bf717646aa0"
@@ -28,12 +29,12 @@ const Nav: React.FC = () => {
       >
         Vault<StyledSpan>↗</StyledSpan>
       </StyledAbsoluteLink>
-      <StyledAbsoluteLink
+      {/* <StyledAbsoluteLink
         href="https://dark-vision.netlify.app"
         target="_blank"
       >
         Vision<StyledSpan>↗</StyledSpan>
-      </StyledAbsoluteLink>
+      </StyledAbsoluteLink> */}
       <StyledAbsoluteLink
         href="https://dark-exchange.netlify.app"
         target="_blank"
