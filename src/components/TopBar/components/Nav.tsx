@@ -11,9 +11,11 @@ const Nav: React.FC = () => {
       <StyledLink exact activeClassName="active" to="/farms">
         Liquidity
       </StyledLink>
-      <StyledLink exact activeClassName="active" to="/staking">
-        Staking
-      </StyledLink>
+      <StyledAbsoluteLink
+        href="https://dark-stake.netlify.app/"
+      >
+        staking
+      </StyledAbsoluteLink>
       <StyledAbsoluteLink
         href="https://medium.com/@darkswap/darkswap-7bf717646aa0"
         target="_blank"
